@@ -1,0 +1,721 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<link rel="stylesheet" href="bower_components/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+	<link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="bower_components/ionrangeslider/css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="bower_components/ionrangeslider/css/ion.rangeSlider.skinHTML5.css">
+	<link rel="stylesheet" href="bower_components/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="bower_components/textareascrollbar/jquery.scrollbar.css">	
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="mobile-indicator"></div>
+<div class="page">
+	<div class="n-header">
+		<div class="n-mob__items mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>
+				<div class="n-mob__items__header">Интернет-магазин автозапчастей</div>
+				<ul class="n-mob__items__list">
+					<li><a href="#"><img src="img/m1.png" alt="" /><span>Все автозапчасти</span></a></li>
+					<li><a href="#"><img src="img/m2.png" alt="" /><span>Автостекла</span></a></li>
+					<li><a href="#"><img src="img/m3.png" alt="" /><span>Двигатели</span></a></li>
+					<li><a href="#"><img src="img/m4.png" alt="" /><span>Коробки передач</span></a></li>
+					<li><a href="#"><img src="img/m5.png" alt="" /><span>Турбины</span></a></li>
+					<li><a href="#"><img src="img/m6.png" alt="" /><span>Аккумуляторы</span></a></li>
+					<li><a href="#"><img src="img/m7.png" alt="" /><span>Автохимия</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="n-mob__search mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>
+				<div class="n-mob__search__header">Поиск по сайту</div>
+				<div class="n-mob__search__field">
+					<input type="text" placeholder="ПОИСК">
+				</div>
+				<input type="submit" value="Искать"/>
+			</div>
+		</div>
+		
+		<div class="n-mob__menu mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<ul>
+					<li><a href="#">VIN запрос</a></li>
+					<li><a href="#">Автосервис</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">О компании</a></li>
+				</ul>		
+			</div>
+		</div>
+		
+		<div class="n-mob__catalog mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<ul>
+					<li><a href="#">Все автозапчати</a></li>
+					<li><a href="#">Автостекла</a></li>
+					<li><a href="#">Двигатели</a></li>
+					<li><a href="#">Коробки передач</a></li>
+					<li><a href="#">Турбины</a></li>
+					<li><a href="#">Акумуляторы</a></li>
+					<li><a href="#">Автохимия</a></li>
+				</ul>		
+			</div>
+		</div>
+		
+		<div class="n-mob__submenu mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="#">Гарантия и возврат</a></li>
+					<li><a href="#">Поставщикам</a></li>
+				</ul>		
+			</div>
+		</div>
+		
+		<div class="n-mob__time mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<div class="n-header__mid__logo-part__info">
+                     <div class="n-header__mid__logo-part__header">Интернет-магазин автозапчастей</div>
+                     <div class="n-header__mid__logo-part__days">
+                         <ul>
+                         	<li><span>Пн</span></li>
+                         	<li><span>Вт</span></li>
+                         	<li><span>Ср</span></li>
+                         	<li><span>Чт</span></li>
+                         	<li><span>Пт</span></li>
+                         	<li><span>Сб</span></li>
+                         	<li><span>Вс</span></li>
+                         </ul>
+                     </div>
+                     <div class="n-header__mid__logo-part__time">
+                         <ul>
+                         	<li>Пн - Пт: 10:00 - 20:00 </li>
+                         	<li>Cб: 11:00 - 17:00</li>
+                         	<li>Вс: выходной</li>
+                         </ul>
+                     </div>
+                 </div>		
+			</div>
+		</div>
+		
+		<div class="n-mob__cab mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<div class="n-mob__cab__header">
+					<img src="img/cab.png" alt="" />
+					<span>Личный кабинет</span>
+				</div>
+				<ul>
+                	<li><a href="#">Регистрация</a></li>
+                	<li><a href="#">Вход</a></li>                	
+                </ul>		
+			</div>
+		</div>
+		
+		<div class="n-mob__bucket mobpop">
+			<div class="n-mob__container">
+				<div class="n-mob__close"></div>			
+				<div class="n-mob__cab__header">
+					<img src="img/buc.png" alt="" />
+					<span>Корзина</span>
+				</div>
+				<ul>
+                	<li>Ваша корзина пуста</li>               	
+                </ul>
+                <a href="#"><span>Перейти в корзину</span></a>		
+			</div>
+		</div>				
+		
+        <div class="n-header__top clear">
+            <div class="n-container clear">
+            	<div class="nav-burger">
+            		<div class="nav-burger__line"></div>
+            	</div>
+                <div class="n-header__top__nav">                	
+                    <ul>
+                    	<li><a href="#"><span>О компании</span></a></li>
+                    	<li><a href="#"><span>Доставка</span></a></li>
+                    	<li><a href="#"><span>Оплата</span></a></li>
+                    	<li><a href="#"><span>Гарантия и возврат</span></a></li>
+                    	<li><a href="#"><span>Поставщикам</span></a></li>
+                    </ul>
+                </div>
+                <div class="n-header__top__icons">
+                    <ul>
+                    	<li><a href="#"><img src="img/ic1.png" alt=""/></a></li>
+                    	<li><a href="#"><img src="img/ic2.png" alt=""/></a></li>
+                    	<li><a href="#"><img src="img/ic3.png" alt=""/></a></li>
+                    	<li><a href="#"><img src="img/ic4.png" alt=""/></a></li>
+                    	<li><a href="#"><img src="img/ic5.png" alt=""/></a></li>
+                    </ul>
+                </div>
+                <div class="n-header__top__contacts">
+                    <div class="n-header__top__contacts__container clear">                       
+                        <div class="n-header__top__phone">
+                            <span>+7 (812) 955-28-96</span>
+                        </div>
+                        <div class="n-header__top__city">
+                            <select id="city-select">
+                                <option>Санкт-Петербург</option>
+                                <option>Москва</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="n-pop__city">
+						<div class="n-pop__city__header">
+							<span>Ваш город <b>САНКТ-ПЕТЕРБУРГ</b> ?</span>				
+						</div>
+						<div class="n-pop__city__btns">
+							<a href="#">ДА</a>
+							<a href="#">НЕТ</a>
+						</div>
+					</div>
+                </div>               
+            </div>
+        </div>
+        <!-- /.n-header__top -->
+        <div class="n-header__mid">
+            <div class="n-container">
+            	<div class="n-header__mid__moblogo"></div>
+            	<div class="n-header__mid__mob">
+	            	<div class="n-header__mid__mobmenu">
+	            		<div class="n-header__mid__mobmenu__line"></div>
+	            	</div>
+	            	<div class="n-header__mid__mobcab"></div>
+	            	<div class="n-header__mid__mobbucket"></div>
+	            	<div class="n-header__mid__mobtime"></div>
+            	</div>
+            	
+                <div class="n-header__mid__logo-part">
+                    <img src="img/logo.png" alt="" class="logo"/>
+                    <div class="n-header__mid__logo-part__info">
+                        <div class="n-header__mid__logo-part__header">Интернет-магазин автозапчастей</div>
+                        <div class="n-header__mid__logo-part__days">
+                            <ul>
+                            	<li><span>Пн</span></li>
+                            	<li><span>Вт</span></li>
+                            	<li><span>Ср</span></li>
+                            	<li><span>Чт</span></li>
+                            	<li><span>Пт</span></li>
+                            	<li><span>Сб</span></li>
+                            	<li><span>Вс</span></li>
+                            </ul>
+                        </div>
+                        <div class="n-header__mid__logo-part__time">
+                            <ul>
+                            	<li>Пн - Пт: 10:00 - 20:00 </li>
+                            	<li>Cб: 11:00 - 17:00</li>
+                            	<li>Вс: выходной</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-header__mid__phone">
+                    <div class="n-header__mid__phone__ph">+7 (812) 955-28-96</div>
+                    <a href="#n-pop__phone" class="n-header__mid__phone__bttn btn-pop"><span>Заказать обратный звонок</span></a>
+                </div>
+                <div class="n-header__mid__reg">
+                    <div class="n-header__mid__reg__cab"><span><a href="#">Регистрация</a> / <a href="#">Вход</a></span></div>
+                    <div class="n-header__mid__reg__bucket">
+                        <div class="n-header__mid__reg__bucket__container">
+                            <a href="#" class="hr-tg"></a>
+                            <div class="n-header__mid__reg__bucket__pic"></div>
+                            <p>Ваша корзина пуста</p>
+                            <a href="#" class="n-header__mid__reg__bucket__href">Перейти в корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.n-header__mid -->
+
+        <div class="n-header__nav-part">
+            <div class="n-container clear">
+                <ul class="n-header__nav-part__menu">
+                	<li class="n-header__nav-part__item n-header__nav-part--list"><span>Каталог</span>
+                	    <ul class="n-header__nav-part__item__menu">
+                	    	<div class="n-inside">
+	                	    	<li><div class="n-cont"><a href="#">Все автозапчати</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">Автостекла</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">Двигатели</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">Коробки передач</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">турбины</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">акумуляторы</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+	                	    	<li><div class="n-cont"><a href="#">автохимия</a></div>
+	                	    		<div class="n-cont__sub">
+	                	    			<img src="img/tmp/example.png" alt="" />
+	                	    		</div>
+	                	    	</li>
+                	    	</div>
+                	    </ul>
+                	</li>
+                	<li class="n-header__nav-part__item forHide"><a href="#"><span>Vin запрос</span></a></li>
+                	<li class="n-header__nav-part__item forHide"><a href="#"><span>Автосервис</span></a></li>
+                	<li class="n-header__nav-part__item forHide"><a href="#"><span>Контакты</span></a></li>
+                	<li class="n-header__nav-part__item forHide"><a href="#"><span>О компании</span></a></li>                	
+                	<li class="n-header__nav-part__item n-search"><a href="#"><span><img src="img/loop2.png" alt="" /></span></a></li>
+                	<li class="n-header__nav-part__item n-menu"><a href="#"><span>Меню</span></a></li>
+                </ul>
+
+                <div class="n-header__nav-part__search">
+                    <div class="n-header__nav-part__search__container clear">
+                        <div class="n-header__nav-part__check one-of">
+                            <input type="checkbox">
+                            <label><div></div></label>
+                            <span>По номерам</span>
+                        </div>
+                        <div class="n-header__nav-part__check one-of">
+                            <input type="checkbox">
+                            <label><div></div></label>
+                            <span>По названию</span>
+                        </div>
+                        <a href="#" class="find-me">Найдите мне!</a>
+                        <div class="n-header__nav-part__field">
+                            <input type="text" placeholder="поиск">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.n-header__nav-part -->
+	</div>
+
+	<div class="content">
+
+<div class="n-main">
+
+     <div class="n-main__nav">
+	    <div class="n-container">
+	        <ul>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        		<div class="n-main__nav__pic">
+	        			 <div class="n-main__nav__pic__ins">
+	        			    <img src="img/m1.png" alt="" />
+	        			 </div>
+	        	    </div>
+	        		<span>Все автозапчасти</span>
+	            </li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        		<div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m2.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>Автостекла</span>
+	        	</li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        	    <div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m3.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>Двигатели</span>
+	        	</li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        	    <div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m4.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>коробки передач</span>
+	        	</li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        	    <div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m5.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>Турбины</span>
+	        	</li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        	    <div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m6.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>Аккумуляторы</span>
+	        	</li>
+	        	<li class="n-main__nav__item">
+	        	    <a href="#"></a>
+	        	    <div class="n-main__nav__pic">
+	                     <div class="n-main__nav__pic__ins">
+	                        <img src="img/m7.png" alt="" />
+	                     </div>
+	                </div>
+	                <span>Автохимия</span>
+	        	</li>
+	        </ul>
+	    </div>
+	</div>
+	<!-- /.n-main__nav -->                                                         
+    
+    <div class="n-container">    	
+    	 <div class="n-pag">
+    	 	<ul>
+    	 		<li><a href="#"><span>Каталог</span></a></li>
+    	 		<li><a href="#"><span>Аккумуляторы</span></a></li>   	 		
+    	 	</ul>
+    	 </div>	    	     	 
+    	 
+    	 <div class="n-catalog__more">
+    	 	
+	    	 <div class="n-subFilter">
+	    	 	<div class="n-subFilter__container">
+	    	 		<div class="n-subFilter__col">
+	    	 			<div class="n-subFilter__col__container">
+		    	 			<label>Фирма:</label>
+			    	 		<div class="n-catalog__check" id="n-field1">
+						    	<select id="select1">
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    	</select>
+			    			</div>
+		    			</div>
+	    	 		</div>
+	    	 		<div class="n-subFilter__col">
+	    	 			<div class="n-subFilter__col__container">
+		    	 			<label>Емкость (А/Ч):</label>
+			    	 		<div class="n-catalog__check" id="n-field2">
+						    	<select id="select2">
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    	</select>
+			    			</div>
+		    			</div>
+	    	 		</div>
+	    	 		<div class="n-subFilter__col">
+	    	 			<div class="n-subFilter__col__container">
+		    	 			<label>Ток (А):</label>
+			    	 		<div class="n-catalog__check" id="n-field3">
+						    	<select id="select3">
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    	</select>
+			    			</div>
+		    			</div>
+	    	 		</div>
+	    	 		<div class="n-subFilter__col">
+	    	 			<div class="n-subFilter__col__container">
+		    	 			<label>Полярность:</label>
+			    	 		<div class="n-catalog__check" id="n-field4">
+						    	<select id="select4">
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    	</select>
+			    			</div>
+		    			</div>
+	    	 		</div>
+	    	 		<div class="n-subFilter__col">
+	    	 			<div class="n-subFilter__col__container">
+		    	 			<label>Клеммы:</label>
+			    	 		<div class="n-catalog__check" id="n-field5">
+						    	<select id="select5">
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    		<option>Все</option>
+						    	</select>
+			    			</div>
+		    			</div>
+	    	 		</div>
+	    	 		
+	    	 	</div>
+	    	 </div>
+	    	 <!-- /.n-subFilter -->
+	    	 
+	    	 <div class="n-catalog__filter__rez">
+	    		<div class="n-catalog__filter__rez__container">
+		    		<div class="n-main__sliderC__item">
+				   		<div class="n-main__sliderC__pic">
+				   			<img src="img/tmp/ak.png" alt="" />
+				   		</div>
+				   		<div class="n-main__sliderC__item__container">
+							<div class="n-main__sliderC__header">
+								Viatti Strada Asimmetrico  
+							</div>
+							<div class="n-main__sliderC__code">
+								<span>Код запчасти:<b>860267565613A</b></span>
+							</div>
+							<div class="n-main__sliderC__status">
+								<img src="img/yes.png" alt="" /><span>В наличии</span>
+							</div>
+							<div class="n-main__sliderC__cost">
+								<div class="n-main__sliderC__cost__value">
+									9 750 ₽
+								</div>
+								<div class="n-main__sliderC__cost__inp">
+									<div class="n-main__sliderC__cost__minus">
+										
+									</div>
+									<div class="n-main__sliderC__cost__val">
+										<input type="text" value="1" readonly>
+									</div>
+									<div class="n-main__sliderC__cost__plus">
+										
+									</div>
+								</div>
+							</div>
+							<a class="n-main__sliderC__btn" href="#">
+								Купить
+							</a>
+				   		</div>
+				   	</div>
+				   	<!-- /.n-main__sliderC__item -->
+				   	<div class="n-main__sliderC__item">
+				   		<div class="n-main__sliderC__pic">
+				   			<img src="img/tmp/ak2.png" alt="" />
+				   		</div>
+				   		<div class="n-main__sliderC__item__container">
+							<div class="n-main__sliderC__header">
+								Viatti Strada Asimmetrico  
+							</div>
+							<div class="n-main__sliderC__code">
+								<span>Код запчасти:<b>860267565613A</b></span>
+							</div>
+							<div class="n-main__sliderC__status">
+								<img src="img/yes.png" alt="" /><span>В наличии</span>
+							</div>
+							<div class="n-main__sliderC__cost">
+								<div class="n-main__sliderC__cost__value">
+									9 750 ₽
+								</div>
+								<div class="n-main__sliderC__cost__inp">
+									<div class="n-main__sliderC__cost__minus">
+										
+									</div>
+									<div class="n-main__sliderC__cost__val">
+										<input type="text" value="1" readonly>
+									</div>
+									<div class="n-main__sliderC__cost__plus">
+										
+									</div>
+								</div>
+							</div>
+							<a class="n-main__sliderC__btn" href="#">
+								Купить
+							</a>
+				   		</div>
+				   	</div>
+				   	<!-- /.n-main__sliderC__item -->
+				   	<div class="n-main__sliderC__item">
+				   		<div class="n-main__sliderC__pic">
+				   			<img src="img/tmp/ak3.png" alt="" />
+				   		</div>
+				   		<div class="n-main__sliderC__item__container">
+							<div class="n-main__sliderC__header">
+								Viatti Strada Asimmetrico  
+							</div>
+							<div class="n-main__sliderC__code">
+								<span>Код запчасти:<b>860267565613A</b></span>
+							</div>
+							<div class="n-main__sliderC__status">
+								<img src="img/yes.png" alt="" /><span>В наличии</span>
+							</div>
+							<div class="n-main__sliderC__cost">
+								<div class="n-main__sliderC__cost__value">
+									9 750 ₽
+								</div>
+								<div class="n-main__sliderC__cost__inp">
+									<div class="n-main__sliderC__cost__minus">
+										
+									</div>
+									<div class="n-main__sliderC__cost__val">
+										<input type="text" value="1" readonly>
+									</div>
+									<div class="n-main__sliderC__cost__plus">
+										
+									</div>
+								</div>
+							</div>
+							<a class="n-main__sliderC__btn" href="#">
+								Купить
+							</a>
+				   		</div>
+				   	</div>
+				   	<!-- /.n-main__sliderC__item -->
+				   	<div class="n-main__sliderC__item">
+				   		<div class="n-main__sliderC__pic">
+				   			<img src="img/tmp/ak.png" alt="" />
+				   		</div>
+				   		<div class="n-main__sliderC__item__container">
+							<div class="n-main__sliderC__header">
+								Viatti Strada Asimmetrico  
+							</div>
+							<div class="n-main__sliderC__code">
+								<span>Код запчасти:<b>860267565613A</b></span>
+							</div>
+							<div class="n-main__sliderC__status">
+								<img src="img/yes.png" alt="" /><span>В наличии</span>
+							</div>
+							<div class="n-main__sliderC__cost">
+								<div class="n-main__sliderC__cost__value">
+									9 750 ₽
+								</div>
+								<div class="n-main__sliderC__cost__inp">
+									<div class="n-main__sliderC__cost__minus">
+										
+									</div>
+									<div class="n-main__sliderC__cost__val">
+										<input type="text" value="1" readonly>
+									</div>
+									<div class="n-main__sliderC__cost__plus">
+										
+									</div>
+								</div>
+							</div>
+							<a class="n-main__sliderC__btn" href="#">
+								Купить
+							</a>
+				   		</div>
+				   	</div>
+				   	<!-- /.n-main__sliderC__item -->
+			    </div>
+	    	</div>
+	    	<!-- /.n-catalog__filter__rez -->
+    	</div>
+    	<!-- /.n-catalog__filter__more --> 
+    	
+    	<div class="n-rev-container">
+    		<a href="#" class="n-rev">назад</a>
+    	</div>  	  	
+    </div>
+      
+
+</div>
+<!-- /.n-main -->
+
+	</div>
+
+	<div class="n-footer">
+		<div class="n-footer__top">
+			<div class="n-footer__shadow"></div>
+			<div class="n-container">
+				<ul>
+					<li>
+						<b>Полезная информация:</b>
+						<a href="#"><span>Доставка</span></a>
+						<a href="#"><span>Способы оплаты</span></a>
+						<a href="#"><span>Гарантия и условия возврата</span></a>
+						<a href="#"><span>Статьи</span></a>
+					</li>
+					<li>
+						<b>Сотрудничество:</b>
+						<a href="#"><span>Поставщикам</span></a>
+						<a href="#"><span>Оптовикам</span></a>
+					</li>
+					<li>
+						<span>г.Санкт-Петербург</span>
+						<span>Тел. (812) 955-28-96 ( многоканальный ) </span>
+						<span>Тел.  +7 (921)-552-77-44</span>
+						<span>E-mail: info@sevzapsklad.ru</span>
+						<div>
+							<i>Совместная разработка сайта </i>
+							<i><a href="#">Веб-студия “Leeft” & “ЯCREATIVE”</a></i>
+						</div>
+					</li>
+					<li class="n-footer__tel">
+						<b>+7 (812) 955-28-96</b>
+						<a href="#n-pop__phone" class="n-header__mid__phone__bttn btn-pop"><span>Заказать обратный звонок</span></a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="n-pop__anotherCity zoom-anim-dialog mfp-hide">
+		<ul>
+			<li class="n-pop__anotherCity__priority"><a href="#">Санкт - Петербург</a></li>
+			<li class="n-pop__anotherCity__priority"><a href="#">Москва</a></li>
+			<li><a href="#">Брянск</a></li>
+			<li><a href="#">Омск</a></li>
+			<li><a href="#">Архангельск</a></li>
+			<li><a href="#">Вологда</a></li>
+			<li><a href="#">Новосибирск</a></li>
+			<li><a href="#">Другой</a></li>
+		</ul>		
+	</div>
+	<!-- /.n-pop__anotherCity -->
+	
+	<div class="n-pop__phone zoom-anim-dialog mfp-hide" id="n-pop__phone">
+		<div class="n-pop__phone__pic">
+			<img src="img/phonePop.png" alt="" />
+		</div>
+		<div class="n-pop__phone__info">
+			<div class="n-vin__field">
+			   	<label><b><img src="img/g3.png" alt="" /></b><span>Имя пользователя</span></label>
+			   	<input type="text" placeholder="">
+			</div>
+			<div class="n-vin__field">
+			   	<label><b><img src="img/g4.png" alt="" /></b><span>Телефон</span></label>
+			   	<input type="text" placeholder="" id="n-phone">
+			</div>
+			<div class="n-pop__phone__btn">
+				<input type="submit">
+			</div>
+		</div>	
+	</div>
+	<!-- /.n-pop__anotherCity -->
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<script src="bower_components/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+<script src="bower_components/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="bower_components/swiper/dist/js/swiper.min.js"></script>
+<script src="bower_components/maskedPlug/jquery.inputmask.bundle.js"></script>
+<script src="bower_components/maskedPlug/masked.js"></script>
+<script src="bower_components/ionrangeslider/js/ion.rangeSlider.min.js"></script>
+<script src="bower_components/textareascrollbar/jquery.scrollbar.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
