@@ -3552,6 +3552,10 @@ a:hover {
       margin-bottom: 10px; }
       .n-catalog__filter__rez__container {
         margin: 0px -27px; }
+        .n-catalog__filter__rez__container:after {
+          display: block;
+          content: '';
+          clear: both; }
         @media all and (max-width: 1160px) {
           .n-catalog__filter__rez__container {
             margin: 0px -10px; } }
@@ -3569,7 +3573,9 @@ a:hover {
             margin-bottom: 20px; } }
         @media all and (max-width: 480px) {
           .n-catalog__filter__rez .n-main__sliderC__item {
-            width: 100%; } }
+            width: 100%;
+            float: none;
+            width: auto; } }
   .n-catalog__check {
     margin-bottom: 5px;
     position: relative; }

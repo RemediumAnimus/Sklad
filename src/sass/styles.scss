@@ -4909,6 +4909,12 @@ a:hover {
       &__container {
         margin: 0px -27px;
         
+        &:after {
+          display: block;
+          content: '';
+          clear: both;
+        }
+        
         @media all and (max-width: $medium-width) {
           margin: 0px -10px;
         }
@@ -4931,6 +4937,8 @@ a:hover {
         
         @media all and (max-width: 480px) {
           width: 100%;
+          float: none;
+          width: auto;
         }
       }
     }
