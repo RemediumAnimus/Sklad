@@ -6849,6 +6849,29 @@ a:hover {
   }
 }//n-table__parts
 
+.n-table__turbines {
+  width: 520px;
+  
+  @media all and (max-width: $mobile-width) {
+    width: auto; 
+  }
+  
+  .n-table__parts__cell--first {
+    width: 27.5%;
+    
+    @media all and (max-width: $mobile-width) {
+      width: 100%;
+    }
+  }
+  
+  .n-table__parts__cell--second {
+    width: 33.5%;
+    @media all and (max-width: $mobile-width) {
+      width: 100%;
+    }
+  }
+}
+
 .n-tr {
   
   .n-vin {

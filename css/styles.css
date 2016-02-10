@@ -4914,6 +4914,22 @@ a:hover {
           line-height: 40px;
           left: 0; } }
 
+.n-table__turbines {
+  width: 520px; }
+  @media all and (max-width: 770px) {
+    .n-table__turbines {
+      width: auto; } }
+  .n-table__turbines .n-table__parts__cell--first {
+    width: 27.5%; }
+    @media all and (max-width: 770px) {
+      .n-table__turbines .n-table__parts__cell--first {
+        width: 100%; } }
+  .n-table__turbines .n-table__parts__cell--second {
+    width: 33.5%; }
+    @media all and (max-width: 770px) {
+      .n-table__turbines .n-table__parts__cell--second {
+        width: 100%; } }
+
 .n-tr .n-vin {
   padding-top: 8px; }
 
